@@ -1,0 +1,52 @@
+div 
+body{
+    background-color: white;
+}
+
+div{
+    font-family: 'Roboto Condensed', sans-serif
+}
+
+#logo{
+    float: left;
+    width: 30%;
+    min-height: 50px;
+    color: skyblue;
+    
+}
+
+#menu{
+    float: right;
+    width: 70%;
+    min-height: 50px;
+}
+
+ul li{
+    display: inline;
+    margin: 3px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: skyblue;
+}
+
+ul li:hover{
+    background-color: skyblue;
+    padding: 10px 15px;
+}
+
+ul li a:hover{
+    color: white;
+}
+#mainimage{
+    clear: both;
+    width: 100%;
+    min-height: 500px;
+    background-image: url(../shipping.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#secondimage{
+    float: right;
+}

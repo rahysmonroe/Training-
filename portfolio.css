@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+*{
+    font-family: 'Roboto Slab', serif;
+}
+.navigation{
+    width: 100%;
+    position:relative;
+    min-height: 60px;
+    z-index: 1;
+}
+#navbarNav{
+    justify-content: flex-end;
+}
+.navbar-brand{
+    color: skyblue;
+    font-size: 2rem;
+}
+.navbar-light, .navbar-na, .nav-link{
+    color: skyblue;
+    font-weight: 600;
+    padding-left: 1.2rem !important;
+    padding-right: 1.2rem !important;
+}
+/* button */
+.btn{
+    background-color: skyblue !important;
+    border-radius: 2rem;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    color: white !important;
+    border: none;
+}
+/* banner */
+.banner{
+    background-color: ivory;
+}
+.icon{
+    color: skyblue;
+    background-color: whitesmoke;
+    height: 50px;
+    max-width: 50px;
+    width: 100%;
+    border: none;
+    margin: auto;
+    padding: 17px;
+    background-size: 20px;
+    border-radius: 28px;
+}
+#my-works{
+    background-color: ivory;
+}
+h1{
+    color: skyblue;
+}
+#pricing{
+    background-color: ivory;
+}
+/* hr */ 
+hr{
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+.card{
+    background-color: ivory;
+}
+#contact a{
+    text-decoration: none;
+}
+.footer{
+    text-decoration: none;
+    color: skyblue;
+    font-style: italic;
+}

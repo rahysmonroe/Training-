@@ -1,0 +1,67 @@
+#banner{
+    height: 50vh;
+    width: 100;
+    background-image: url(/set.JPG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2em;
+    padding-right: 5em;
+    
+}
+.logo{
+    color: white;
+    
+}
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 10px 15px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: ivory;
+    transition: none;
+}
+#rahys{
+   text-align: end;
+    color:  white;
+    font-weight: bold;
+    padding-top: 200px;
+    
+    
+   
+}
+#content{
+    background-color: #FCE5CD;
+    padding-top: 50px;
+    padding-left: 100px;
+    
+}
+span{
+    font-weight: 800;
+    
+}
+#project{
+    text-align: center;
+    padding-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+hr{
+    margin-right: 8rem;
+    font-weight: bolder;
+}
+.mywork{
+    background-color: #FCE5CD;
+}
